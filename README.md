@@ -1,6 +1,6 @@
 # QImmersiveStatusBar
-Android4.4~8.1状态栏适配<br>
-![gif效果图](https://github.com/272664150/QImmersiveStatusBar/blob/master/screenshots/1.gif =540x960) 
+Android4.4~8.1状态栏适配
+
 
 一、状态栏着色
 -----
@@ -23,4 +23,5 @@ StatusBarUtils.setTransparentBar(this);<br>
 -----
 StatusBarUtils.setStatusBarMode(this, darkMode);<br>
 API<=22：原生不支持，Flyme>=4支持，MIUI 6~9支持<br>
-API>=23：原生支持字体、图标深浅模式。MIUI开发版7.7.13及以后版本采用了系统API，旧方法无效但不会报错
+API>=23：原生支持字体、图标深浅模式。MIUI开发版7.7.13及以后版本采用了系统API，旧方法无效但不会报错<br><br>
+![gif效果图](https://github.com/272664150/QImmersiveStatusBar/blob/master/screenshots/1.gif)
