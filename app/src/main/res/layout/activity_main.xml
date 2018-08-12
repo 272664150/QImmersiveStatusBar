@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/one_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="和标题栏一样默认白色" />
+
+    <Button
+        android:id="@+id/two_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="状态栏字体深、浅模式" />
+
+    <Button
+        android:id="@+id/three_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="透明状态栏，图片可延伸到下面" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="本页标题栏设置为蓝色，覆盖设置的默认状态栏颜色" />
+</LinearLayout>
